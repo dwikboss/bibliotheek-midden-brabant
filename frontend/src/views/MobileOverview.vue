@@ -18,7 +18,7 @@
           <form @submit.prevent="submitForm">
             <input type="reaction" id="reaction" v-model="formData.reaction" required placeholder="reactie" />
             <input type="text" id="name" v-model="formData.name" required placeholder="naam" />
-            <button type="submit">Reactie toevoegen</button>
+            <button type="submit">Reactie toevoegen!</button>
             <div id="submitStatus" v-if="submitStatus">
               {{ submitStatus }}
             </div>
